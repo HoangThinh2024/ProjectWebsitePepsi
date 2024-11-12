@@ -1,0 +1,318 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #003885;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+
+.main-container {
+  overflow: hidden;
+  width: 100vw; /* Lấp đầy chiều rộng màn hình */
+  height: 100vh; /* Lấp đầy chiều cao màn hình */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+.menu-container a{
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+span a {
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+span a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+span a:hover::after {
+  width: 100%;
+}
+span a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1512px;
+  height: 982px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.image {
+  position: absolute;
+  width: 707px;
+  height: 627px;
+  top: -1px;
+  left: 1069px;
+  background: url(./assets/images/f5aa8ed2e43bcb2a7d22117434c310fcfae7408c.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.33;
+  z-index: 1;
+}
+.image-1 {
+  position: absolute;
+  width: 184px;
+  height: 60px;
+  top: 23px;
+  left: 34px;
+  background: url(./assets/images/005f92de-02e7-4765-8ef4-d434b027c4d5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.tin-tuc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 177px;
+  height: 43px;
+  top: 32px;
+  left: 796px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 26;
+}
+.san-pham {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 43px;
+  top: 32px;
+  left: 609px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+}
+.lien-he {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 155px;
+  height: 43px;
+  top: 32px;
+  left: 1018px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 27;
+}
+.faqs {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 130px;
+  height: 46px;
+  top: 39px;
+  left: 1224px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25.174829483032227px;
+  font-weight: 400;
+  line-height: 29.502px;
+  text-align: center;
+  z-index: 29;
+}
+.line {
+  position: absolute;
+  width: 1px;
+  top: 76px;
+  left: 628px;
+  background: url(./assets/images/ebfe451c-87e4-418c-9cd6-aad3117fa1cb.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.image-2 {
+  position: absolute;
+  width: 806.134px;
+  height: 166.725px;
+  top: 92.137px;
+  left: -253.944px;
+  background: url(./assets/images/e2f15348-f71a-46ee-80a2-227f684c61a5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 23;
+}
+.image-3 {
+  position: absolute;
+  width: 237.932px;
+  height: 306.22px;
+  top: 211.64px;
+  left: 49px;
+  background: url(./assets/images/fd092d1c-0d90-4857-994c-0653592a2326.png)
+  no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+
+
+.image-4 {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 224px;
+  left: 825.628px;
+  background: url(./assets/images/6d7cf5cc-a551-4c7e-bd4c-1fc0f9efbdaf.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.image-5 {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 224px;
+  left: 1245.872px;
+  background: url(./assets/images/467b1b0b-64de-4e5e-98a2-3d2e8ad16174.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 21;
+}
+.image-6 {
+  position: absolute;
+  width: 132.871px;
+  height: 280.842px;
+  top: 224px;
+  left: 489.844px;
+  background: url(./assets/images/edfefc48-07f8-4dae-bf2d-7aef0c0b82a2.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 17;
+}
+.image-7 {
+  position: absolute;
+  width: 707px;
+  height: 627px;
+  top: 650px;
+  left: -390px;
+  background: url(./assets/84ea87ee-d63f-40f1-8123-bcbb90778054.png)
+    no-repeat center;
+  background-size: cover;
+  opacity: 0.33;
+  z-index: 2;
+}
+.rectangle {
+  position: absolute;
+  width: 213.903px;
+  height: 47.213px;
+  top: 522.38px;
+  left: 73.088px;
+  z-index: 22;
+}
+.image-one {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 662px;
+  left: 455.981px;
+  background: url(./assets/images/e1a2db40-827c-4ddd-aea7-d184607987d5.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 6;
+}
+.image-two {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 662px;
+  left: 850.603px;
+  background: url(./assets/images/13f7e522-f99d-40ff-8239-e8b0072330b4.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+}
+.image-three {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 662px;
+  left: 1245.224px;
+  background: url(./assets/images/52e37561-8c9f-4950-a854-a880935fd293.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.image-four {
+  position: absolute;
+  width: 217.332px;
+  height: 279.707px;
+  top: 662px;
+  left: 61.36px;
+  background: url(./assets/images/bbad01fe-6aa5-41e5-aa2f-f443a8b59150.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+}
