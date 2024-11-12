@@ -1,0 +1,416 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003885; /* Màu nền */
+}
+
+/* .main-container {
+  overflow: hidden;
+} */
+
+/* .main-container,
+.main-container * {
+  box-sizing: border-box;
+} */
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1280px;
+  height: 987px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.pepsi-landing-page {
+  position: absolute;
+  width: 1280px;
+  height: 987px;
+  top: 0;
+  left: 0;
+  font-size: 0px;
+  background: #003885;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 50px 0 #000000;
+}
+.pepsi-caffeine-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 695px;
+  height: 51px;
+  margin: 752px 0 0 129px;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 6;
+  overflow: hidden;
+}
+.pepsi-flavor-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 921px;
+  height: 68px;
+  margin: 43px 0 0 129px;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 7;
+  overflow: hidden;
+}
+.flex-row {
+  position: absolute;
+  width: 1555.422px;
+  height: 851.472px;
+  top: -114px;
+  left: 23px;
+  z-index: 24;
+}
+.ellipse {
+  position: absolute;
+  width: 621.422px;
+  height: 605.741px;
+  top: 0;
+  left: 934px;
+  background: url(./assets/images/f22f82ac-d931-45c5-be54-db41454213d2.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(250px);
+  z-index: 1;
+}
+.image {
+  position: absolute;
+  width: 184px;
+  height: 60px;
+  top: 138px;
+  left: 14px;
+  background: url(./assets/images/7e560eca-c400-4703-836b-8dfc843cb098.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 24;
+}
+.san-pham {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 159px;
+  height: 43px;
+  top: 148px;
+  left: 458px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 20;
+}
+.tin-tuc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 177px;
+  height: 43px;
+  top: 148px;
+  left: 645px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 21;
+}
+.lien-he {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 155px;
+  height: 43px;
+  top: 148px;
+  left: 867px;
+  color: #ffffff;
+  font-family: Akshar, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41.4px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 22;
+}
+.faqs-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 109.79px;
+  height: 30.07px;
+  top: 154px;
+  left: 1081px;
+  color: #ffffff;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 25.174829483032227px;
+  font-weight: 400;
+  line-height: 29.502px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 23;
+}
+.cach-hoi-thuong-gap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 59px;
+  top: 285px;
+  left: 111px;
+  color: #ffffff;
+  font-family: Alexandria, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58.512px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.listen-feedback {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 488px;
+  height: 76px;
+  top: 350px;
+  left: 111px;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.96px;
+  text-align: left;
+  z-index: 3;
+}
+.png-wing {
+  position: absolute;
+  width: 357px;
+  height: 441.388px;
+  top: 410.084px;
+  left: 967px;
+  background: url(./assets/images/a163356b-1edb-448e-b310-f9f428ac4bc6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 19;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 35px;
+  position: absolute;
+  width: 22px;
+  height: 181.944px;
+  top: 413px;
+  left: 0;
+  z-index: 9;
+}
+.vector {
+  flex-shrink: 0;
+  position: relative;
+  width: 23.479px;
+  height: 19.444px;
+  background: url(./assets/images/1907ed36-2e7d-4181-9ebf-0b09de2d09cf.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+.linked {
+  flex-shrink: 0;
+  position: relative;
+  width: 20px;
+  height: 19px;
+  z-index: 11;
+}
+.flex-column {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 14;
+}
+.vector-2 {
+  position: relative;
+  width: 5.5px;
+  height: 5.5px;
+  margin: -0.75px 0 0 -0.75px;
+  background: url(./assets/images/e29c73c1-774b-4056-9259-9f366da3f848.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 14;
+}
+.vector-3 {
+  position: relative;
+  width: 5.5px;
+  height: 13.5px;
+  margin: 1.5px 0 0 -0.75px;
+  background: url(./assets/images/5ebcd83e-fafd-4353-ae91-3c100dce49d3.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 13;
+}
+.vector-4 {
+  position: absolute;
+  width: 67.5%;
+  height: 76.32%;
+  top: 27.63%;
+  left: 36.25%;
+  background: url(./assets/images/2c8fd07b-c3a2-4d44-9ee0-f09b34f62d71.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+}
+.vector-5 {
+  flex-shrink: 0;
+  position: relative;
+  width: 12.5px;
+  height: 21.5px;
+  background: url(./assets/images/96dcdfba-640d-4db1-9a5f-12bc22e28eee.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+.insta {
+  flex-shrink: 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url(./assets/images/899e6069-aea1-49b4-99d9-1f317313c7e6.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 16;
+}
+.cai-cach-pepsi {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 765px;
+  height: 238px;
+  top: 440px;
+  left: 106px;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  text-align: left;
+  z-index: 8;
+}
+.png-wing-6 {
+  position: absolute;
+  width: 147px;
+  height: 267px;
+  top: 554px;
+  left: 950px;
+  background: url(./assets/images/3382ca60428e2e6ce0ef9e691d46a1d3388abf1a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+}
+.pepsi-chay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 800px;
+  height: 34px;
+  top: 598px;
+  left: 129px;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 4;
+  overflow: hidden;
+}
+.flex-row-bf {
+  position: absolute;
+  width: 1351px;
+  height: 87px;
+  top: 666px;
+  left: 129px;
+  z-index: 17;
+}
+.rectangle {
+  position: absolute;
+  width: 752px;
+  height: 87px;
+  top: 0;
+  left: 599px;
+  background: url(./assets/images/0dc71f52-3b92-47ec-aa85-afb1175a552a.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(12.5px);
+  z-index: 17;
+}
+.pepsi-alcohol {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 717px;
+  height: 34px;
+  top: 9px;
+  left: 0;
+  color: #ffffff;
+  font-family: Rubik, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.59px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 5;
+  overflow: hidden;
+}
