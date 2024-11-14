@@ -12,3 +12,5 @@ Phan Minh Phúc -	Thành viên
 Lê Anh Quân	- Thành viên
 
 Văn Hữu Gia Cường -	Thành viên
+
+Vui lòng truy cập vào link sau để xem được trang web https://hoangthinh2024.github.io/ProjectWebsitePepsi/Home.html
